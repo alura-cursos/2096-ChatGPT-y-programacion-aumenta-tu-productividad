@@ -20,7 +20,7 @@ public class Direccion {
     public Direccion(DatosDireccion direccion) {
         this.calle = direccion.calle();
         this.numero = direccion.numero();
-        this.complemento = direccion.complemento();
+        this.complemento = direccion.complemeto();
         this.distrito = direccion.distrito();
         this.ciudad = direccion.ciudad();
     }
@@ -28,7 +28,7 @@ public class Direccion {
     public Direccion actualizarDireccion(DatosDireccion direccion) {
         this.calle = direccion.calle();
         this.numero = direccion.numero();
-        this.complemento = direccion.complemento();
+        this.complemento = direccion.complemeto();
         this.distrito = direccion.distrito();
         this.ciudad = direccion.ciudad();
         return this;

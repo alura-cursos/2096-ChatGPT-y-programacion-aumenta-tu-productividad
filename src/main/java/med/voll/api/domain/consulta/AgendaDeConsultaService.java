@@ -1,6 +1,7 @@
 package med.voll.api.domain.consulta;
 
 
+import med.voll.api.domain.consulta.dto.DatosRelatoriosConsultaMensual;
 import med.voll.api.domain.consulta.validaciones.ValidadorCancelamientoDeConsulta;
 import med.voll.api.domain.consulta.dto.DatosAgendarConsulta;
 import med.voll.api.domain.consulta.dto.DatosCancelamientoConsulta;
@@ -15,6 +16,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
+import java.time.YearMonth;
 import java.util.List;
 
 @Service
